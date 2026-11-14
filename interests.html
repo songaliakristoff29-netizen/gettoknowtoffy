@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hobbies | KRISTOFF SONGALIA</title>
+  <meta http-equiv="refresh" content="0; url=hobbies.html" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <video class="bg-video" autoplay muted loop playsinline aria-hidden="true">
+    <source src="background.mp4" type="video/mp4" />
+  </video>
+
+  <header class="site-header">
+    <a class="logo" href="index.html">KRISTOFF <span>SONGALIA</span></a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="nav-links" aria-label="Main navigation">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="about.html">About</a>
+      <a class="nav-link" href="hobbies.html">Hobbies</a>
+      <a class="nav-link" href="things-i-love.html">Things I Love</a>
+      <a class="nav-link" href="journey.html">Journey</a>
+      <a class="nav-link" href="goals.html">Goals</a>
+      <a class="nav-link" href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="content-section section-shell">
+      <div class="section-heading">
+        <p class="eyebrow">02 / BEYOND THE BASICS</p>
+        <h2>Things that make me, <span>me.</span></h2>
+        <p class="section-subtitle">The little things I enjoy say a lot about who I am.</p>
+      </div>
+      <div class="interest-grid">
+        <article class="interest-card interest-card-large">
+          <div class="card-symbol">♫</div>
+          <p class="card-label">01 / MUSIC</p>
+          <h3>Songs for every mood</h3>
+          <p>Music is one of the ways I slow down, reflect, and connect with what I'm feeling.</p>
+          <div class="card-extra">
+            <p>My go-to vibe is calm, melodic, and a little nostalgic—perfect for studying, dreaming, or resetting after a busy day.</p>
+            <button class="music-btn" type="button" data-music="music">Play vibe</button>
+          </div>
+          <button class="card-toggle" type="button" aria-expanded="false">More details</button>
+        </article>
+        <article class="interest-card">
+          <div class="card-symbol">♡</div>
+          <p class="card-label">02 / FAVORITES</p>
+          <h3>Little things I love</h3>
+          <p>From favorite food to comfort shows, these are the things that make an ordinary day better.</p>
+          <div class="card-extra">
+            <p>Comfort food, late-night shows, and the small rituals that make a routine feel like home.</p>
+            <button class="music-btn" type="button" data-music="favorites">Play vibe</button>
+          </div>
+          <button class="card-toggle" type="button" aria-expanded="false">More details</button>
+        </article>
+        <article class="interest-card">
+          <div class="card-symbol">✳</div>
+          <p class="card-label">03 / FREE TIME</p>
+          <h3>My kind of downtime</h3>
+          <p>A few activities and interests that help me relax, recharge, and enjoy my time.</p>
+          <div class="card-extra">
+            <p>Reading, creative hobbies, and anything that helps me recharge while staying curious about the world.</p>
+            <button class="music-btn" type="button" data-music="free-time">Play vibe</button>
+          </div>
+          <button class="card-toggle" type="button" aria-expanded="false">More details</button>
+        </article>a
+      </div>
+    </section>
+
+  </main>
+
+  <audio id="site-music" preload="none" loop>
+    <source src="music.mp3" type="audio/mpeg" />
+  </audio>
+
+  <footer class="site-footer">
+    <a class="logo" href="index.html">KRISTOFF <span>SONGALIA</span></a>
+    <p>PCMEL · <span id="year"></span></p>
+    <a href="index.html" class="back-top">Back to top ↑</a>
+  </footer>
+</body>
+</html>

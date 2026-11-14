@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hobbies | KRISTOFF SONGALIA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body class="hobbies-page">
+  <video class="bg-video" autoplay muted loop playsinline aria-hidden="true">
+    <source src="background.mp4" type="video/mp4" />
+  </video>
+
+  <header class="site-header">
+    <a class="logo" href="index.html">KRISTOFF <span>SONGALIA.</span></a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="nav-links" aria-label="Main navigation">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="about.html">About</a>
+      <a class="nav-link active" href="hobbies.html">Hobbies</a>
+      <a class="nav-link" href="things-i-love.html">Things I Love</a>
+      <a class="nav-link" href="journey.html">Journey</a>
+      <a class="nav-link" href="goals.html">Goals</a>
+      <a class="nav-link" href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="content-section section-shell hobby-section">
+      <div class="section-heading">
+        <p class="eyebrow">03 / MY HOBBIES</p>
+        <h2>What I like doing <span>in my time.</span></h2>
+        <p class="section-subtitle">Some of the things I enjoy doing in my free time.</p>
+      </div>
+      <div class="interest-grid">
+        <article class="interest-card">
+          <img class="interest-card-image" src="hobbies/cooking.jpg" alt="" aria-hidden="true" />
+          <div class="card-symbol">♨</div>
+          <p class="card-label">01 / COOKING</p>
+          <h3>Cooking</h3>
+          <p>I enjoy making food and trying things out in the kitchen.</p>
+          <div class="card-extra">
+            <p>Cooking gives me a fun way to be hands-on and enjoy something I made myself.</p>
+          </div>
+          <button class="card-toggle" type="button" aria-expanded="false">More details</button>
+        </article>
+        <article class="interest-card">
+          <img class="interest-card-image" src="hobbies/playing music.jpg" alt="" aria-hidden="true" />
+          <div class="card-symbol">♫</div>
+          <p class="card-label">02 / MUSIC</p>
+          <h3>Artists on repeat</h3>
+          <p>Music is one of my favorite ways to relax and enjoy my free time.</p>
+          <div class="card-extra">
+            <p>Some of my favorite artists are Daniel Caesar, Bruno Mars, and Chris Brown.</p>
+          </div>
+          <button class="card-toggle" type="button" aria-expanded="false">More details</button>
+        </article>
+        <article class="interest-card">
+          <img class="interest-card-image" src="hobbies/playing games.jpg" alt="" aria-hidden="true" />
+          <div class="card-symbol">⌘</div>
+          <p class="card-label">03 / ONLINE GAMES</p>
+          <h3>Playing online games</h3>
+          <p>I enjoy playing online games in my free time.</p>
+          <div class="card-extra">
+            <p>Games are a fun way to relax, think strategically, and enjoy a challenge.</p>
+          </div>
+          <button class="card-toggle" type="button" aria-expanded="false">More details</button>
+        </article>
+        <article class="interest-card">
+          <img class="interest-card-image" src="hobbies/movie.jpg" alt="" aria-hidden="true" />
+          <div class="card-symbol">▣</div>
+          <p class="card-label">04 / MOVIES</p>
+          <h3>Watching movies</h3>
+          <p>I enjoy watching movies and getting into a good story.</p>
+          <div class="card-extra">
+            <p>Movies are a great way to unwind and explore different stories and characters.</p>
+          </div>
+          <button class="card-toggle" type="button" aria-expanded="false">More details</button>
+        </article>
+        <article class="interest-card">
+          <img class="interest-card-image" src="hobbies/billiards.jpg" alt="" aria-hidden="true" />
+          <div class="card-symbol">●</div>
+          <p class="card-label">05 / BILLIARDS</p>
+          <h3>Playing billiards</h3>
+          <p>I like the focus and challenge of lining up each shot.</p>
+          <div class="card-extra">
+            <p>Every turn takes patience, a little planning, and a steady aim.</p>
+          </div>
+          <button class="card-toggle" type="button" aria-expanded="false">More details</button>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <audio id="site-music" preload="none" loop>
+    <source src="music.mp3" type="audio/mpeg" />
+  </audio>
+
+  <footer class="site-footer">
+    <a class="logo" href="index.html">KRISTOFF <span>SONGALIA.</span></a>
+    <p>PCMEL · <span id="year"></span></p>
+    <a href="index.html" class="back-top">Back to top ↑</a>
+  </footer>
+</body>
+</html>
